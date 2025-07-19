@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+.logo, .footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: white;
+}
+p, label {
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
+input, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.note {
+    color: yellow;
+    font-size: 0.9rem;
+}
+.home, .thanks {
+    background-color: black;
+}
+.form {
+    background-color: #222;
+}
+.whatsapp-link {
+    color: blue;
+    text-decoration: underline;
+}

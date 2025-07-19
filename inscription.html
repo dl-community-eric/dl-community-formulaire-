@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - DL COMMUNITY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form">
+    <div class="container">
+        <h1>Formulaire d'inscription</h1>
+        <form action="https://formsubmit.co/dlcommunityeric@gmail.com" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_subject" value="Nouvelle inscription DL COMMUNITY">
+            <input type="hidden" name="_captcha" value="false">
+            <label>Nom : <input type="text" name="nom" required></label>
+            <label>Post-nom : <input type="text" name="postnom" required></label>
+            <label>Prénom : <input type="text" name="prenom" required></label>
+            <label>Âge : <input type="number" name="age" required></label>
+            <label>Email : <input type="email" name="email" required></label>
+            <label>Numéro de téléphone : <input type="tel" name="telephone" required></label>
+            <label>Nationalité : <input type="text" name="nationalite" required></label>
+            <label>Photo : <input type="file" name="photo" accept="image/*" required></label>
+            <label>Date et heure d'enregistrement :
+                <input type="datetime-local" name="datetime" required>
+            </label>
+            <p class="note">⚠️ Vous ne recevrez pas de message de confirmation automatique.</p>
+            <button type="submit" class="button">Valider l'inscription</button>
+        </form>
+    </div>
+</body>
+</html>
